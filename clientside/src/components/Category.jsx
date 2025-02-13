@@ -1,6 +1,9 @@
 import axios from "axios";
-import React, {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import "./category.css"; // Import the new CSS file
+
+
 
 const Category = () => {
   const [category, setCategory] = useState([]);
@@ -16,28 +19,35 @@ const Category = () => {
     };
     fetchCategory();
   }, []);
-  return (
-    <div className="px-5 mt-3">
-      <div className="d-flex justify-content-center">
-        <h3>Category List</h3>
-      </div>
-      <Link to="/dashboard/add_category" className="btn btn-success">
-        Add Category
-      </Link>
 
-      <div className="mt-3">
-        <table className="table">
+  return (
+    <div className="category-container">
+      {/* Centered Add Category Button */}
+      <div className="add-category-btn">
+        <Link to="/dashboard/add_category">+ Add Category</Link>
+      </div>
+
+      <div className="table-responsive">
+        <table className="category-table">
           <thead>
             <tr>
               <th>Name</th>
             </tr>
           </thead>
           <tbody>
-            {category.map((e) => (
-              <tr key={e.id}>
-                <td>{e.name}</td>
+            {category.length > 0 ? (
+              category.map((e) => (
+                <tr key={e.id}>
+                  <td>{e.name}</td>
+                </tr>
+              ))
+            ) : (
+              <tr>
+                <td className="no-category" colSpan="1">
+                  No categories available.
+                </td>
               </tr>
-            ))}
+            )}
           </tbody>
         </table>
       </div>
@@ -45,4 +55,6 @@ const Category = () => {
   );
 };
 
+
 export default Category;
+

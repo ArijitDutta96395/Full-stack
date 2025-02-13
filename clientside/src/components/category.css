@@ -1,0 +1,76 @@
+/* ====== General Page Styling ====== */
+.category-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa; /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ====== Add Category Button Styling ====== */
+  .add-category-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-category-btn a {
+    font-size: 16px;
+    padding: 12px 25px;
+    font-weight: bold;
+    background: #28a745;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .add-category-btn a:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* ====== Table Styling ====== */
+  .category-table {
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-table thead {
+    background: #343a40;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .category-table th,
+  .category-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .category-table tbody tr {
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .category-table tbody tr:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  /* ====== No Data Styling ====== */
+  .no-category {
+    text-align: center;
+    color: #6c757d;
+    font-style: italic;
+    padding: 15px;
+  }
+  .category-icon {
+    color: #007bff;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+ 
+  

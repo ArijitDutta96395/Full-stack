@@ -44,6 +44,7 @@ const AddEmployee = () => {
         formData
       );
       navigate("/dashboard/employee");
+      console.log(employee.category_id);
     } catch (error) {
       console.log(error);
     }

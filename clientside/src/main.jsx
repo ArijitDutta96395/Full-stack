@@ -8,3 +8,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+function Home() {
+  return <h1>Home Page</h1>;
+}
+export default Home;

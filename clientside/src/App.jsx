@@ -1,19 +1,19 @@
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Login from "./components/Login";
-import {BrowserRouter, Routes, Route, useNavigate} from "react-router-dom";
-import Dashboard from "./components/Dashboard";
-import Home from "./components/Home";
-import Employee from "./components/Employee";
-import Category from "./components/Category";
-import Profile from "./components/Profile";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
 import AddCategory from "./components/AddCategory";
 import AddEmployee from "./components/AddEmployee";
+import Category from "./components/Category";
+import Dashboard from "./components/Dashboard";
 import EditEmployee from "./components/EditEmployee";
-import Start from "./components/Start";
-import EmployeeLogin from "./components/EmployeeLogin";
+import Employee from "./components/Employee";
 import EmployeeDetail from "./components/EmployeeDetail";
+import EmployeeLogin from "./components/EmployeeLogin";
+import Home from "./components/Home";
+import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
+import Profile from "./components/Profile";
+import Start from "./components/Start";
 
 function App() {
   return (

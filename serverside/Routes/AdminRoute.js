@@ -1,10 +1,10 @@
-import express from "express"
-const router = express.Router()
-import con from "../utils/db.js";
-import jwt from "jsonwebtoken"
-import bcrypt, { hash } from "bcrypt"
-import multer from "multer"
+import bcrypt from "bcrypt";
+import express from "express";
+import jwt from "jsonwebtoken";
+import multer from "multer";
 import path from "path";
+import con from "../utils/db.js";
+const router = express.Router()
 
 
 router.post("/adminlogin", (req, res) => {
@@ -135,6 +135,7 @@ router.post("/add_employee", upload.single("image"), (req, res) => {
             req.file.filename,
             req.body.category_id]
         con.query(sql, values, (err, result) => {
+            console.log(values);
             if (err) return res.json({ status: false, Error: "Query Error" })
             return res.json({ status: true })
         })
@@ -152,4 +153,4 @@ router.delete("/delete_employee/:id", (req, res) => {
 
 
 
-export { router as adminRouter }
+export { router as adminRouter };

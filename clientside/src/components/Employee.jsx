@@ -1,10 +1,10 @@
 import axios from "axios";
-import React, {useEffect, useState} from "react";
-import {Link, useNavigate} from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import "./employee.css";
 
 const Employee = () => {
   const [employee, setEmployee] = useState([]);
-
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,14 +34,14 @@ const Employee = () => {
       console.log(error);
     }
   };
+
   return (
     <div className="px-5 mt-3">
       <div className="d-flex justify-content-center">
-        <h3>Employee List</h3>
+        <Link to="/dashboard/add_employee" className="btn add-employee-btn">
+          Add Employee
+        </Link>
       </div>
-      <Link to="/dashboard/add_employee" className="btn btn-success">
-        Add Employee
-      </Link>
 
       <div className="mt-3">
         <table className="table">
