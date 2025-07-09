@@ -132,12 +132,14 @@ npm run dev
 ---
 👉 Backend (Node.js + Express)
 • npm start → Start Server (with Nodemon)
+
 ---
 
 ### 🔒 Authentication
-JWT (JSON Web Tokens) for API Authentication
+• JWT (JSON Web Tokens) for API Authentication
 
-bcrypt for Password Hashing
+• bcrypt for Password Hashing
+
 ---
 
 
