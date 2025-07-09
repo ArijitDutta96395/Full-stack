@@ -5,6 +5,15 @@ It enables users to **add**, **edit**, **delete**, and **view** employee details
 
 ---
 
+## 👨‍💻 Author
+**Arijit Dutta**
+
+---
+
+## 📝 License
+This project is licensed under the **MIT License**.
+
+---
 ## 🚀 Features
 
 ### ✨ Frontend (React + Vite)
@@ -49,4 +58,28 @@ It enables users to **add**, **edit**, **delete**, and **view** employee details
 ---
 
 ## 📁 Project Structure
+employee-management-system/
+│
+├── clientside/ # React Frontend (Vite)
+│ ├── public/
+│ ├── src/
+│ ├── package.json
+│ └── vite.config.js
+│
+└── serverside/ # Node.js Backend (Express)
+├── controllers/
+├── routes/
+├── models/
+├── index.js
+└── package.json
+
+--
+
+## ⚙️ Installation & Setup Guide (Frontend + Backend)
+
+### ✅ Step 1: Clone Repository
+```bash
+git clone https://github.com/yourusername/employee-management-system.git
+cd employee-management-system
+
 
