@@ -81,5 +81,11 @@ employee-management-system/
 ```bash
 git clone https://github.com/yourusername/employee-management-system.git
 cd employee-management-system
+```
 
+### ✅ Step 2: Backend Setup (Node.js + Express)
+```bash
+cd serverside
+npm install
+```
 
