@@ -5,15 +5,6 @@ It enables users to **add**, **edit**, **delete**, and **view** employee details
 
 ---
 
-## 👨‍💻 Author
-**Arijit Dutta**
-
----
-
-## 📝 License
-This project is licensed under the **MIT License**.
-
----
 ## 🚀 Features
 
 ### ✨ Frontend (React + Vite)
@@ -56,24 +47,6 @@ This project is licensed under the **MIT License**.
 | nodemon          | Auto-reload Backend         |
 
 ---
-
-## 📁 Project Structure
-employee-management-system/
-│
-├── clientside/ # React Frontend (Vite)
-│ ├── public/
-│ ├── src/
-│ ├── package.json
-│ └── vite.config.js
-│
-└── serverside/ # Node.js Backend (Express)
-├── controllers/
-├── routes/
-├── models/
-├── index.js
-└── package.json
-
---
 
 ## ⚙️ Installation & Setup Guide (Frontend + Backend)
 
@@ -141,7 +114,12 @@ npm run dev
 • bcrypt for Password Hashing
 
 ---
+## 👨‍💻 Author
+**Arijit Dutta**
 
+---
 
+## 📝 License
+This project is licensed under the **MIT License**.
 
-
+---
