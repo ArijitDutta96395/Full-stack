@@ -107,7 +107,7 @@ Start Backend Server:
 npm start
 ```
 
-###✅ Step 3: Frontend Setup (React + Vite)
+### ✅ Step 3: Frontend Setup (React + Vite)
 ```bash
 cd ../clientside
 npm install
@@ -119,22 +119,22 @@ npm run dev
 ```
 
 ---
-###📄 Available Scripts
+### 📄 Available Scripts
 
 👉 Frontend (React + Vite)
-npm run dev → Start Dev Server
+• npm run dev → Start Dev Server
 
-npm run build → Build Production Files
+• npm run build → Build Production Files
 
-npm run preview → Preview Production Build
+• npm run preview → Preview Production Build
 
-npm run lint → Run Linting
+• npm run lint → Run Linting
 ---
 👉 Backend (Node.js + Express)
-npm start → Start Server (with Nodemon)
+• npm start → Start Server (with Nodemon)
 ---
 
-###🔒 Authentication
+### 🔒 Authentication
 JWT (JSON Web Tokens) for API Authentication
 
 bcrypt for Password Hashing
