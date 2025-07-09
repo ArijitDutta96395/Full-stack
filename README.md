@@ -89,3 +89,57 @@ cd serverside
 npm install
 ```
 
+Configure MySQL Database:
+Edit your DB config file (db.js or equivalent).
+
+Sample .env file (Backend):
+
+```env
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=employee_db
+JWT_SECRET=your_jwt_secret
+```
+
+Start Backend Server:
+```bash
+npm start
+```
+
+###✅ Step 3: Frontend Setup (React + Vite)
+```bash
+cd ../clientside
+npm install
+```
+
+Start Frontend Development Server:
+```bash
+npm run dev
+```
+
+---
+###📄 Available Scripts
+
+👉 Frontend (React + Vite)
+npm run dev → Start Dev Server
+
+npm run build → Build Production Files
+
+npm run preview → Preview Production Build
+
+npm run lint → Run Linting
+---
+👉 Backend (Node.js + Express)
+npm start → Start Server (with Nodemon)
+---
+
+###🔒 Authentication
+JWT (JSON Web Tokens) for API Authentication
+
+bcrypt for Password Hashing
+---
+
+
+
+
