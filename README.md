@@ -27,6 +27,14 @@ It enables users to **add**, **edit**, **delete**, and **view** employee details
 - Cookie-based Sessions
 
 ---
+![Project Image 1](https://github.com/ArijitDutta96395/Full-stack/blob/main/pic1.png)
+*Homepage layout showcasing navigation and featured sections* 
+
+![Project Image 2](https://github.com/ArijitDutta96395/Full-stack/blob/main/pic2.png)
+*Backend MySQL server demonstrating database and regsitered users* 
+
+
+---
 
 ## 🛠️ Tech Stack
 
