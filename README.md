@@ -59,8 +59,8 @@ CLIENT (React)        SERVER (Node.js/Express)        DATABASE (MySQL)
      │                          │                           │
      ├─────── HTTP Requests ────┤                           │
      │                          ├────── Database Queries ───┤
-     │                          │                           │
-     └─────── JSON Responses ───┘                           │
+     │                          │                           
+     └─────── JSON Responses ───┘                           
 ```
 
 ## 🛠️ Tech Stack
@@ -227,10 +227,6 @@ employee-management-system/
     ├── index.js
     └── package.json
 ```
-
-## 📸 Screenshots
-
-> Add screenshots of your application here to showcase the UI
 
 ## 🤝 Contributing
 
